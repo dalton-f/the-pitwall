@@ -1,0 +1,33 @@
+{
+  "name": "the-pitwall",
+  "version": "1.0.0",
+  "description": "Your F1 season, from lights out to chequered flag.",
+  "license": "MIT",
+  "author": "Dalton",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx mix watch"
+  },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
+  },
+  "overrides": {
+    "webpack": "5.93.0"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "chart.js": "^4.5.1",
+    "postcss": "^8.5.30",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.12.0",
+    "laravel-mix": "^6.0.49",
+    "prettier": "^3.9.10",
+    "prettier-plugin-tailwindcss": "^0.8.1"
+  }
+}
